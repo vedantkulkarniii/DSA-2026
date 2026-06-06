@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Language-Python%203-blue?style=flat-square&logo=python)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-10-orange?style=flat-square)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-20-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 A structured Data Structures and Algorithms practice repository maintained by **Vedant Kulkarni**.
@@ -44,6 +44,21 @@ This repository documents my daily DSA practice and learning journey — from fu
 | 09 | [Rotate Array](Arrays/09_Rotate_Array.py) | Shift + Store | O(n) | O(1) |
 | 10 | [Linear Search](Arrays/10_Linear_Search.py) | Sequential Search | O(n) | O(1) |
 
+### Strings — 10 / 10 ✅
+
+| # | Problem | Approach | Time | Space |
+|---|---------|----------|------|-------|
+| 01 | [Reverse String](Strings/01_Reverse_String.py) | Two Pointer | O(n) | O(n) |
+| 02 | [Palindrome String](Strings/02_Palindrome_String.py) | Two Pointer | O(n) | O(n) |
+| 03 | [Count Vowels & Consonants](Strings/03_Count_Vowels_Consonants.py) | Linear Scan + Set | O(n) | O(1) |
+| 04 | [String to Uppercase](Strings/04_String_To_Uppercase.py) | ASCII Manipulation | O(n) | O(n) |
+| 05 | [Character Frequency](Strings/05_Character_Frequency.py) | Hash Map | O(n) | O(k) |
+| 06 | [Check Anagram](Strings/06_Check_Anagram.py) | Frequency Count | O(n) | O(k) |
+| 07 | [First Non-Repeating Character](Strings/07_First_Non_Repeating.py) | Two-Pass Hash Map | O(n) | O(k) |
+| 08 | [Remove Duplicate Characters](Strings/08_Remove_Duplicates.py) | Seen Set | O(n) | O(k) |
+| 09 | [Count Words](Strings/09_Count_Words.py) | Split / Manual Scan | O(n) | O(n) |
+| 10 | [Longest Word](Strings/10_Longest_Word.py) | Split + Linear Scan | O(n) | O(n) |
+
 ---
 
 ## Repository Structure
@@ -62,6 +77,18 @@ DSA-2026/
 │   ├── 08_Move_Zeros.py
 │   ├── 09_Rotate_Array.py
 │   └── 10_Linear_Search.py
+│
+├── Strings/
+│   ├── 01_Reverse_String.py
+│   ├── 02_Palindrome_String.py
+│   ├── 03_Count_Vowels_Consonants.py
+│   ├── 04_String_To_Uppercase.py
+│   ├── 05_Character_Frequency.py
+│   ├── 06_Check_Anagram.py
+│   ├── 07_First_Non_Repeating.py
+│   ├── 08_Remove_Duplicates.py
+│   ├── 09_Count_Words.py
+│   └── 10_Longest_Word.py
 │
 └── README.md
 ```
@@ -83,7 +110,7 @@ DSA-2026/
 ```
 Phase 1 — Fundamentals
   [✅] Arrays
-  [ ] Strings
+  [✅] Strings
   [ ] Searching
   [ ] Sorting
 
