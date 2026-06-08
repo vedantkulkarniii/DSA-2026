@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Language-Python%203-blue?style=flat-square&logo=python)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-20-orange?style=flat-square)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-30-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 A structured Data Structures and Algorithms practice repository maintained by **Vedant Kulkarni**.
@@ -59,6 +59,27 @@ This repository documents my daily DSA practice and learning journey — from fu
 | 09 | [Count Words](Strings/09_Count_Words.py) | Split / Manual Scan | O(n) | O(n) |
 | 10 | [Longest Word](Strings/10_Longest_Word.py) | Split + Linear Scan | O(n) | O(n) |
 
+### Searching — 10 / 10 ✅
+
+> **What is Searching?**
+> Searching is the process of locating a target element within a data structure.
+> The two fundamental techniques are Linear Search (works on any array, O(n)) and
+> Binary Search (requires a sorted array, O(log n)). Binary Search and its variants
+> are among the most frequently tested topics in software engineering interviews.
+
+| # | Problem | Approach | Time | Space |
+|---|---------|----------|------|-------|
+| 01 | [Linear Search](Searching/01_Linear_Search.py) | Sequential Scan | O(n) | O(1) |
+| 02 | [Binary Search](Searching/02_Binary_Search.py) | Divide & Conquer | O(log n) | O(1) |
+| 03 | [First Occurrence](Searching/03_First_Occurrence.py) | Modified Binary Search | O(log n) | O(1) |
+| 04 | [Last Occurrence](Searching/04_Last_Occurrence.py) | Modified Binary Search | O(log n) | O(1) |
+| 05 | [Count Occurrences](Searching/05_Count_Occurrences.py) | Two Binary Searches | O(log n) | O(1) |
+| 06 | [Lower Bound](Searching/06_Lower_Bound.py) | Modified Binary Search | O(log n) | O(1) |
+| 07 | [Upper Bound](Searching/07_Upper_Bound.py) | Modified Binary Search | O(log n) | O(1) |
+| 08 | [Search Insert Position](Searching/08_Search_Insert_Position.py) | Lower Bound Variant | O(log n) | O(1) |
+| 09 | [Floor of Number](Searching/09_Floor_Of_Number.py) | Modified Binary Search | O(log n) | O(1) |
+| 10 | [Ceil of Number](Searching/10_Ceil_Of_Number.py) | Modified Binary Search | O(log n) | O(1) |
+
 ---
 
 ## Repository Structure
@@ -90,6 +111,20 @@ DSA-2026/
 │   ├── 09_Count_Words.py
 │   └── 10_Longest_Word.py
 │
+├── Searching/
+│   ├── 01_Linear_Search.py
+│   ├── 02_Binary_Search.py
+│   ├── 03_First_Occurrence.py
+│   ├── 04_Last_Occurrence.py
+│   ├── 05_Count_Occurrences.py
+│   ├── 06_Lower_Bound.py
+│   ├── 07_Upper_Bound.py
+│   ├── 08_Search_Insert_Position.py
+│   ├── 09_Floor_Of_Number.py
+│   ├── 10_Ceil_Of_Number.py
+│   ├── NOTES.md
+│   └── COMMIT_PLAN.md
+│
 └── README.md
 ```
 
@@ -111,7 +146,7 @@ DSA-2026/
 Phase 1 — Fundamentals
   [✅] Arrays
   [✅] Strings
-  [ ] Searching
+  [✅] Searching
   [ ] Sorting
 
 Phase 2 — Core Data Structures
